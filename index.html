@@ -4,68 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <section class="header">
-            <nav class="left_nav">
-                  <div class="logo_name">
-                    <h1></h1>
-                    <img src="" alt="">
-                  </div>
-                  <img src="" alt="">    
-                  <h2></h2>
-                  <ul>
-                    <li>Products</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Industries</li>
-                    <li>Resources</li>
-                    <li>Support</li>
-                  </ul>
-            </nav>
-            <nav class="right_nav">
-                 <button id="download_teams"></button>
-                 <button id="sign_in"></button>
-            </nav>
-
-        </section>
-
-        <main>
-            <section class="first_content">
+    <header>
+        <div class="logo_nav">
+            <button title="Open office app launcher" >
                 <img src="" alt="">
-                <div class="page_content">
-                    <h1></h1>
-                    <p></p>
-                </div>
-                <div class="buttons">
-                    <button></button>
-                    <button></button>
-                </div>
-            </section>
-    
-            <section class="body">
-    
-                 <div class="heading">
-                   <div class="link_overview"></div>
-                   <div class="link_plans"></div>
-                   <div class="link_resources"></div>
-                   <div class="FAQ"></div>
-                 </div>
-                 <div class="content">
-    
-                 </div>
-                
-    
-            </section>
-    
-            <section class="freq_que">
-                <h1></h1>
-                
-            </section>
-        </main>
-        <section class="footer"></section>
-    </div>
-    
+            </button>
+            <img src="" alt="Logo">
+        </div>
+
+        <div class="serch_box">
+            <textarea name="Search(Ctrl+Alt+E)" id="search_box"></textarea>
+        </div>
+
+        <div class="profile_nav">
+            <button>
+                <img src="" alt="Settings and more">
+            </button>
+            <button>
+                <img src="" alt="profile_pic">
+            </button>
+        </div>
+    </header>
+
+    <main>
+       <section aria-label="left_navbar" class="left_navbar">
+           <ul>
+            <li title="Activity"></li>
+            <li title="Chat"></li>
+            <li title="Teams"></li>
+            <li title="Calendar"></li>
+            <li title="Calls"></li>
+            <li title="OneDrive"></li>
+            <li title="View more apps"></li>
+            <li title="Apps"></li>
+           </ul>
+       </section>
+        <section aria-label="profile" class="profile">
+            <div class="chat_head"></div>
+            <div class="chat_profile"></div>
+        </section>
+        <section aria-label="chat" class="chat">
+            <section aria-label="chat_information" class="chat_information"></section>
+            <section aria-label="messeges" class="messeges"></section>
+        </section>
+    </main>
 </body>
 </html>
