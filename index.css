@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    
+}
+.logo_nav{
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+}
+.search_box input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: start;
+    padding-left: 50px;
+    background-image: url('search-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 23px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.profile_nav{
+    display: flex;
+    gap: 13px;
+    padding-right: 10px;
+}
+.left_navbar ul{
+    width: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    margin: 5px;
+    gap: 20px;
+    list-style: none;
+}

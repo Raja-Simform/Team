@@ -7,48 +7,150 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
+    <header class="navigation">
         <div class="logo_nav">
             <button title="Open office app launcher" >
-                <img src="" alt="">
+                <img src="more-grid-big-svgrepo-com.svg" alt="Open Office App Launcher" style="height: 0%30px;width: 30px;background-color: aliceblue;">
             </button>
-            <img src="" alt="Logo">
+            <img src="teams-svgrepo-com.svg"Logo" style="height: 30px;width: 30px;">
         </div>
 
-        <div class="serch_box">
-            <textarea name="Search(Ctrl+Alt+E)" id="search_box"></textarea>
+        <div class="search_box">
+            <input type="text" name="search_box" id="search_input" placeholder="Search(Ctrl+Alt+E)">
         </div>
 
         <div class="profile_nav">
             <button>
-                <img src="" alt="Settings and more">
+                <img src="more-svgrepo-com.svg" alt="Settings and more" style="background-color: white; height: 30px;width: 30px;" >
             </button>
             <button>
-                <img src="" alt="profile_pic">
+                <img src="profile-circle-svgrepo-com.svg" alt="profile_pic" style="background-color: white; height: 30px;width: 30px;">
             </button>
         </div>
     </header>
 
     <main>
-       <section aria-label="left_navbar" class="left_navbar">
+       <section aria-labelledby="left_navbar" class="left_navbar">
            <ul>
-            <li title="Activity"></li>
-            <li title="Chat"></li>
-            <li title="Teams"></li>
-            <li title="Calendar"></li>
-            <li title="Calls"></li>
-            <li title="OneDrive"></li>
-            <li title="View more apps"></li>
-            <li title="Apps"></li>
+            <li title="Activity">
+                <img src="notification-bell-on-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="Chat">
+                <img src="chat-round-line-svgrepo-com.svg" alt=""
+                style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="Teams">
+                <img src="team-svgrepo-com.svg" alt="" style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="Calendar">
+                <img src="calendar-lines-svgrepo-com.svg" alt="" style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="Calls">
+                <img src="call-receive-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="OneDrive">
+                <img src="onedrive-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="View more apps">
+                <img src="more-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </li>
+            <li title="Apps">
+                <img src="apps-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </li>
            </ul>
        </section>
-        <section aria-label="profile" class="profile">
-            <div class="chat_head"></div>
-            <div class="chat_profile"></div>
+        <section aria-labelledby="profile" class="profile">
+            <div class="chat_head">
+                <h1>Chat</h1>
+                <img src="more-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+            </div>
+            <div class="chat_profile">
+                <div class="pinned">
+                    <img src="" alt="">
+                    <p>Pinned</p>
+                     <div class="card">
+                        <button>
+                            <img src="" alt="">
+                        </button>
+                        <div class="name"></div>
+                        <button><img src="" alt=""></button>
+                     </div>
+                </div>
+                <div class="recent">
+                    <img src="" alt="">
+                    <p>Recent</p>
+                       <button>
+                            <img src="" alt="">
+                        </button>
+                        <div class="name"></div>
+                        <button><img src="" alt=""></button>
+                     </div>
+                     <button>
+                        <img src="" alt="">
+                    </button>
+                    <div class="name"></div>
+                    <button><img src="" alt=""></button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <div class="name"></div>
+                    <button><img src="" alt=""></button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <div class="name"></div>
+                    <button><img src="" alt=""></button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <div class="name"></div>
+                    <button><img src="" alt=""></button>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+                </div>
+            </div>
         </section>
         <section aria-label="chat" class="chat">
-            <section aria-label="chat_information" class="chat_information"></section>
-            <section aria-label="messeges" class="messeges"></section>
+            <section aria-label="chat_information" class="chat_information">
+                <div class="left_chat_information">
+                <img src="" alt="">
+                <p></p>
+                <img src="" alt="">
+                <button>
+                    <p></p>
+                </button>
+                <button>
+                    <p></p>
+                </button>
+                <button>
+                    <img src="" alt="">
+                </button>
+
+                </div>
+                <div class="right_chat_information">
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <img src="" alt="">
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                </div>
+            </section>
+            <section aria-label="messeges" class="messeges">
+                <div class="chat_card"></div>
+            </section>
         </section>
     </main>
 </body>
