@@ -15,11 +15,13 @@
 .logo_nav{
     display: flex;
     gap: 30px;
+    align-items: center;
     padding-left: 10px;
-    cursor: pointer;
+    
 }
 .logo_nav button{
     cursor: pointer;
+    margin-left: 5px;
 }
 .search_box input{
     width: 500px;
@@ -41,16 +43,18 @@
     cursor: pointer;
 }
 .left_navbar ul{
-    width: 40px;
-    height: 500px;
+    
+    width: 60px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
     padding: 10px;
-    margin: 5px;
+    padding-left: 15px;
     gap: 20px;
     list-style: none;
     cursor: pointer;
+    font-size: 15px;
 }
 main{
     display: flex;
@@ -59,20 +63,26 @@ main{
     display: flex;
     flex-direction: column;
     width: 500px;
+
     
 }
 .chat_head{
     display: flex;
     justify-content:space-between;
     background-color: rgb(187, 181, 173);
-    height: 60px;
+    height: 70px;
     align-items: center;
     padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .chat_profile{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
+    background-color:antiquewhite;
+    height: 100%;
     
 }
 .pinned{
@@ -85,22 +95,36 @@ main{
     display: flex;
     height: 10px;
     font-size: 10px;
+    
     align-items: center;
     padding-top: 20px;
     padding-left: 5px;
+
     
+}
+.pinned .button button{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    background-color: antiquewhite;
 }
 .card{
     display: flex;
     align-items: center;
     height: 80px;
-    width: ;
-
+    padding: 10px;
+    
 }
-.card_left{
+
+.card button{
     display: flex;
+    width: 80%;
     gap: 10px;
     padding: 10px;
-    border: 2px solid black;
-    width: 500px;
+    
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: none;
+
 }
+
