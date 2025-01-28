@@ -12,7 +12,7 @@
             <button title="Open office app launcher" >
                 <img src="more-grid-big-svgrepo-com.svg" alt="Open Office App Launcher" style="height: 0%30px;width: 30px;background-color: aliceblue;">
             </button>
-            <img src="teams-svgrepo-com.svg"Logo" style="height: 30px;width: 30px;">
+            <img src="teams-svgrepo-com.svg"Logo" style="height: 30px;width: 30px;" tabindex="0">
         </div>
 
         <div class="search_box">
@@ -32,79 +32,92 @@
     <main>
        <section aria-labelledby="left_navbar" class="left_navbar">
            <ul>
-            <li title="Activity">
+            <li title="Activity" tabindex="0">
                 <img src="notification-bell-on-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="Chat">
+            <li title="Chat"tabindex="0">
                 <img src="chat-round-line-svgrepo-com.svg" alt=""
                 style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="Teams">
+            <li title="Teams"tabindex="0">
                 <img src="team-svgrepo-com.svg" alt="" style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="Calendar">
+            <li title="Calendar"tabindex="0">
                 <img src="calendar-lines-svgrepo-com.svg" alt="" style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="Calls">
+            <li title="Calls"tabindex="0">
                 <img src="call-receive-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="OneDrive">
+            <li title="OneDrive"tabindex="0">
                 <img src="onedrive-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="View more apps">
+            <li title="View more apps"tabindex="0">
                 <img src="more-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
             </li>
-            <li title="Apps">
+            <li title="Apps"tabindex="0">
                 <img src="apps-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
             </li>
            </ul>
        </section>
         <section aria-labelledby="profile" class="profile">
-            <div class="chat_head">
+            <div class="chat_head" aria-labelledby="profile">
                 <h1>Chat</h1>
-                <img src="more-svgrepo-com.svg" alt=""style="background-color: white; height: 30px;width: 30px;">
+                <div class="left_chat_head">
+                <button><img src="more-svgrepo-com.svg" alt=""style="background-color: white; height: 20px;"></button>
+                <button><img src="filter-svgrepo-com (1).svg" height="20px"></button>
+                <button><img src="" alt=""></button>
+                </div>
             </div>
+
             <div class="chat_profile">
                 <div class="pinned">
-                    <img src="" alt="">
-                    <p>Pinned</p>
-                     <div class="card">
+                    <div class="button">
                         <button>
                             <img src="" alt="">
+                            
                         </button>
-                        <div class="name"></div>
-                        <button><img src="" alt=""></button>
+                        <p>Pinned</p>
+                    </div>
+                     <div class="card">
+                        <div class="card_left">
+                            <button>
+                                <img src="profile-circle-svgrepo-com.svg" alt="" height="20px" >
+                            </button>
+                            <div class="name">
+                                <h1>Raja Jha(You)</h1>
+                                <p>You:sent a image</p>
+                            </div>
+                        </div>
+                        <div class="card_right">
+                            <p>22/01</p>
+                        </div>
+                        
                      </div>
                 </div>
+                
                 <div class="recent">
-                    <img src="" alt="">
-                    <p>Recent</p>
-                       <button>
+                        <button>
                             <img src="" alt="">
+                            <p>Recent</p>
                         </button>
-                        <div class="name"></div>
-                        <button><img src="" alt=""></button>
-                     </div>
-                     <button>
-                        <img src="" alt="">
-                    </button>
-                    <div class="name"></div>
-                    <button><img src="" alt=""></button>
-                    <button>
-                        <img src="" alt="">
-                    </button>
-                    <div class="name"></div>
-                    <button><img src="" alt=""></button>
-                    <button>
-                        <img src="" alt="">
-                    </button>
-                    <div class="name"></div>
-                    <button><img src="" alt=""></button>
-                    <button>
-                        <img src="" alt="">
-                    </button>
-                    <div class="name"></div>
-                    <button><img src="" alt=""></button>
+                         <div class="card_recent">
+                            <div class="recent_left">
+                                <button>
+                                    <img src="" alt="">
+                                </button>
+                                <div class="recent_name">
+                                    <h1></h1>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="recent_right">
+                                <p></p>
+                            </div>
+                         </div>   
+                </div>
+                     
+                    
+                   
                  </div>
                  </div>
                  </div>

@@ -8,12 +8,18 @@
     justify-content: space-between;
     height: 60px;
     align-items: center;
+    background-color: antiquewhite;
+   
     
 }
 .logo_nav{
     display: flex;
     gap: 30px;
     padding-left: 10px;
+    cursor: pointer;
+}
+.logo_nav button{
+    cursor: pointer;
 }
 .search_box input{
     width: 500px;
@@ -21,26 +27,80 @@
     border-radius: 5px;
     text-align: start;
     padding-left: 50px;
-    background-image: url('search-svgrepo-com.svg');
-    background-repeat: no-repeat;
-    background-size: 23px;
-    margin: 5px;
-    padding: 5px;
+    cursor:text;
     
 }
+
 .profile_nav{
     display: flex;
     gap: 13px;
     padding-right: 10px;
+    
+}
+.profile_nav button{
+    cursor: pointer;
 }
 .left_navbar ul{
     width: 40px;
     height: 500px;
     display: flex;
     flex-direction: column;
-    
+    background-color: antiquewhite;
     padding: 10px;
     margin: 5px;
     gap: 20px;
     list-style: none;
+    cursor: pointer;
+}
+main{
+    display: flex;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.chat_head{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(187, 181, 173);
+    height: 60px;
+    align-items: center;
+    padding: 5px;
+}
+.chat_profile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.pinned{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    
+}
+.pinned .button{
+    display: flex;
+    height: 10px;
+    font-size: 10px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: ;
+
+}
+.card_left{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 500px;
 }
