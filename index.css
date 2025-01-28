@@ -51,6 +51,7 @@
     background-color: antiquewhite;
     padding: 10px;
     padding-left: 15px;
+    padding-right: 0px;
     gap: 20px;
     list-style: none;
     cursor: pointer;
@@ -63,6 +64,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 500px;
+    
 
     
 }
@@ -88,7 +90,7 @@ main{
 .pinned{
     display: flex;
     flex-direction: column;
-    height: 80px;
+    height: 20%;
     
 }
 .pinned .button{
@@ -126,5 +128,9 @@ main{
     background-color: antiquewhite;
     border: none;
 
+}
+.card button img{
+    height: 30px;
+    width: 30px;
 }
 
