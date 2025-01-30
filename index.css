@@ -107,7 +107,7 @@ main{
     color: aliceblue;
     height: fit-content;
     padding-top: 70px;
-    overflow:scroll;
+    overflow:auto;
     
 }
 .pinned{
