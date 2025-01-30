@@ -241,7 +241,6 @@ main{
 }
 .messeges{
     height: calc(100vh-60px-75px);
-    overflow: scroll;
     width: 500px;
     gap: 10px;
     display: flex;
