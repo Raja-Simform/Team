@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     
+    
     color: aliceblue;
 }
 
@@ -14,11 +15,12 @@
     background-color: black;
     position: fixed;
     width: 100%;
-    
+    flex: none;
 }
 main{
     padding-top: 60px;
     display: flex;
+    
 }
 .logo_nav{
     display: flex;
@@ -55,7 +57,7 @@ main{
 .left_navbar ul{
     position: fixed;
     width: 60px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(15, 15, 15);
@@ -66,18 +68,17 @@ main{
     list-style: none;
     cursor: pointer;
     font-size: 15px;
-    
+    flex: none;
     
 }
-main{
-    display: flex;
-}
+
 .profile{
     display: flex;
     flex-direction: column;
     width: 500px;
     background-color: rgb(28.4, 25.4, 25.4);
     padding-left: 77px;
+    height: calc(vh-60px);
     
 }
 .chat_head{
@@ -106,6 +107,7 @@ main{
     color: aliceblue;
     height: fit-content;
     padding-top: 70px;
+    overflow:scroll;
     
 }
 .pinned{
@@ -163,6 +165,7 @@ main{
     display:flex;
     flex-direction: column;
     
+    
 }
 .chat_information{
     display: flex;
@@ -170,6 +173,9 @@ main{
     gap: 20px;
     align-items: center;
     padding: 15px;
+    position: sticky;
+    top: 60px;
+    background-color:rgb(28.4, 25.4, 25.4); ;
     
    
 }
@@ -221,3 +227,33 @@ main{
 .more_chat_options:hover{
     background-color: rgb(53, 49, 49);
 }
+.chat_card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+    
+}
+.messeges{
+    height: calc(100vh-60px-75px);
+    overflow: scroll;
+    width: 500px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    display: flex; 
+    gap: 5px;
+    
+  
+}
+.data p{
+   display: flex;
+   align-items: center;
+   background-color: rgb(58, 56, 56);
+   padding: 10px;
+   border-radius: 2px;
+}
+
