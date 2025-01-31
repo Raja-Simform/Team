@@ -1,8 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    
-    
     color: aliceblue;
 }
 
@@ -15,7 +13,7 @@
     background-color: black;
     position: fixed;
     width: 100%;
-    flex: none;
+    
 }
 main{
     padding-top: 60px;
@@ -40,8 +38,8 @@ main{
     text-align: start;
     padding-left: 50px;
     cursor:text;
-    background-color:  rgb(32, 29, 29);
-    border: 1px solid rgb(75, 72, 72);
+    background-color:  rgb(41, 39, 39);
+    border: 1px solid rgb(54, 51, 51);
     
 }
 
@@ -68,7 +66,8 @@ main{
     list-style: none;
     cursor: pointer;
     font-size: 15px;
-    flex: none;
+    border-right: 2px solid rgb(68, 65, 65);
+   
     
 }
 
@@ -76,9 +75,9 @@ main{
     display: flex;
     flex-direction: column;
     width: 500px;
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     padding-left: 77px;
-    height: calc(vh-60px);
+    height: calc(100vh - 60px);
     
 }
 .chat_head{
@@ -91,13 +90,16 @@ main{
     border-bottom: 1px solid black;
     height: 70px;
     position: fixed;
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     justify-content:space-between;
 }
 .left_chat_head{
     display: flex;
     gap: 10px;
     padding-left: 10px;
+}
+.left_chat_head button{
+    cursor: pointer;
 }
 .chat_profile{
     display: flex;
@@ -132,7 +134,7 @@ main{
     display: flex;
     border: none;
     cursor: pointer;
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
 }
 .card{
     display: flex;
@@ -146,7 +148,7 @@ main{
     display: flex;
     gap: 10px;
     padding: 10px;
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     cursor: pointer;
     border: none;
 
@@ -161,7 +163,7 @@ main{
 }
 
 .chat{
-    background:rgb(28.4, 25.4, 25.4);
+    background:rgb(28, 25, 25);
     width: 1275px;
     display:flex;
     flex-direction: column;
@@ -180,7 +182,10 @@ main{
     padding: 15px;
     position: sticky;
     top: 60px;
-    background-color:rgb(28.4, 25.4, 25.4); ;
+    height: 40px;
+    background-color:rgb(28, 25, 25); 
+    border-left: 2px solid rgb(68, 65, 65);
+    border-bottom: 2px solid rgb(68, 65, 65);
     
    
 }
@@ -188,19 +193,19 @@ main{
     margin-left: auto;
     display: flex;
     gap: 5px;
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     border: none;
     cursor: pointer;
     font-weight: 800;
 }
 .chat_button {
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     border: none;
     cursor: pointer;
     
 }
 .shared_button{
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 2);
     border: none;
     cursor: pointer;
 }
@@ -209,7 +214,7 @@ main{
     padding-left: 25px;
 }
 .call_option{
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     border: none;
     cursor: pointer;
 }
@@ -217,7 +222,7 @@ main{
     background-color: rgb(53, 49, 49);
 }
 .view_add_participant{
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     border: none;
     cursor: pointer;
 }
@@ -225,7 +230,7 @@ main{
     background-color: rgb(53, 49, 49);
 }
 .more_chat_options{
-    background-color: rgb(28.4, 25.4, 25.4);
+    background-color: rgb(28, 25, 25);
     border: none;
     cursor: pointer;
 }
@@ -240,13 +245,26 @@ main{
     
 }
 .messeges{
-    height: calc(100vh-60px-75px);
-    overflow: scroll;
-    width: 500px;
-    gap: 10px;
+    height: calc(100vh - 60px - 75px);
+    width: 100%;
+    gap: 20px;
     display: flex;
     flex-direction: column;
+    border-left: 2px solid rgb(68, 65, 65);
+    overflow: scroll;
+    /* yet to be learn used internet*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    padding: 10px;
+    
 }
+
+/* yet to be learn used internet*/
+
+.messeges::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 
 .data{
     display: flex; 
