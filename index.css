@@ -71,7 +71,7 @@ main{
    
     
 }
-.left_navbar ul h2{
+.left_navbar ul h2,h1{
     font-size: 10px;
     font-style: none;
     font-weight: 100;
