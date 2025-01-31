@@ -251,6 +251,13 @@ main{
     
     
 }
+.chat_card h2{
+    font-size: 12px;
+    font-style: none;
+    font-weight: 100;
+    
+}
+
 .messeges{
     height: calc(100vh - 60px - 75px);
     width: 100%;
