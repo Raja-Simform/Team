@@ -45,7 +45,8 @@ main{
     background-color:rgb(236, 234, 234);
 }
 .logo_nav button img{ 
-    height: 20px;width: 20px;
+    height: 20px;
+    width: 20px;
     background-color:rgb(236, 234, 234);
     border: none;
 }
@@ -80,8 +81,8 @@ main{
 .profile_nav button img {
     cursor: pointer;
     border-radius: 30px;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border: none;
     margin-right: 10px;
     background-color:rgb(236, 234, 234);;
@@ -133,7 +134,7 @@ main{
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgb(207, 200, 200);
+    border-bottom: 0.2px solid rgb(207, 200, 200);
     height: 70px;
     position: fixed;
     background-color: rgb(243, 239, 239);
@@ -177,7 +178,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 10%;
-    
+   
     
 }
 .pinned1{
@@ -188,6 +189,7 @@ main{
     
     
 }
+
 .pinned .button{
     display: flex;
     height: 10px;
@@ -196,8 +198,8 @@ main{
     align-items: center;
     padding-top: 20px;
     padding-left: 5px;
-
     
+   
 }
 .pinned1 .button{
     display: flex;
@@ -215,6 +217,7 @@ main{
     border: none;
     cursor: pointer;
     background-color: rgb(243, 239, 239);
+    
 }
 .pinned1 .button button{
     display: flex;
@@ -283,8 +286,8 @@ main{
     position: sticky;
     height: 74px;
     background-color:rgb(245, 245, 245);
-    border-left: 1px solid rgb(207, 200, 200);
-    border-bottom: 1px solid rgb(207, 200, 200);
+    border-left: 0.2px solid rgb(207, 200, 200);
+    border-bottom: 0.2px solid rgb(207, 200, 200);
     
    
 }
@@ -451,8 +454,8 @@ height: 20px;
    border-radius: 5px;
 }
 .data img{
-    border-radius: 30px;
-    height:50px;
+    border-radius:50% ;
+    height:35px;
 }
 .messege_box{
     margin-top: auto;
@@ -461,7 +464,7 @@ height: 20px;
     align-items: center;
     margin-bottom: 20px;
     width: 800px;
-    border: 1px solid rgb(177,170,170);
+    border: 0.2px solid rgb(177,170,170);
     height: 40px;
     border-radius: 5px;
     margin-left: 200px;
@@ -485,4 +488,7 @@ height: 20px;
     height: 20px;
     border: none;
     
+}
+.messege_icon img{
+    height: 20px;
 }
