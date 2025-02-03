@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     
-   
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 body{
@@ -17,13 +17,12 @@ body{
     justify-content: space-between;
     height: 60px;
     align-items: center;
-    background-color: rgb(228, 234, 239);
-    position: fixed;
+    background-color:rgb(236, 234, 234);
     width: 100vw;
-    
+    border-bottom: 0.2px solid rgb(224, 222, 222);
 }
 main{
-    padding-top: 60px;
+
     display: flex;
     width: 100vw;
     
@@ -35,12 +34,22 @@ main{
     padding-left: 10px;
     
 }
+.logo_nav img{
+    height: 30px;
+    width: 30px;
+}
 .logo_nav button{
     cursor: pointer;
     margin-left: 5px;
     border: none;
-    background-color: rgb(254, 254, 254);
+    background-color:rgb(236, 234, 234);
 }
+.logo_nav button img{ 
+    height: 20px;width: 20px;
+    background-color:rgb(236, 234, 234);
+    border: none;
+}
+
 .search_box input{
     width: 500px;
     height: 35px;
@@ -48,25 +57,35 @@ main{
     text-align: start;
     padding-left: 50px;
     cursor:text;
-    background-color:  rgb(255, 255, 255);
-    border: 1px solid rgb(54, 51, 51);
+    background-color: rgb(245, 245, 245);
+    
+    border: 1px solid rgb(124, 119, 119);
     
 }
 
 .profile_nav{
     display: flex;
     gap: 13px;
-    padding-right: 10px;
     align-items: center;
     justify-content: center;
+    background-color:rgb(236, 234, 234);
+    border: none;
+    
+   
 }
-.profile_nav button{
+.profile_nav button {
+    border: none;
+    background-color:rgb(236, 234, 234);
+}
+.profile_nav button img {
     cursor: pointer;
-    border-radius: 20px;
-    background-color: aliceblue;
+    border-radius: 30px;
     height: 40px;
     width: 40px;
     border: none;
+    margin-right: 10px;
+    background-color:rgb(236, 234, 234);;
+
 }
 .left_navbar ul{
     position: fixed;
@@ -74,7 +93,7 @@ main{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(251, 247, 247);
+    background-color: rgb(245, 245, 245);
     padding: 10px;
     padding-left: 15px;
     padding-right: 0px;
@@ -82,9 +101,14 @@ main{
     list-style: none;
     cursor: pointer;
     font-size: 15px;
-    border-right: 2px solid rgb(68, 65, 65);
+    border-bottom: 0.3px solid rgb(224, 222, 222);
    
     
+}
+.left_navbar ul li img{
+    background-color: white;
+    height: 30px;
+    width: 30px;
 }
 .left_navbar ul h2,h1{
     font-size: 10px;
@@ -96,25 +120,27 @@ main{
 .profile{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    background-color: rgb(250, 247, 247);
+    width: 400px;
+    background-color: rgb(243, 239, 239);
     padding-left: 77px;
     height: calc(100vh - 60px);
     
 }
 .chat_head{
     display: flex;
-    width: 500px;
+    width: 400px;
     color: rgb(11, 11, 11);
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(207, 200, 200);
     height: 70px;
     position: fixed;
-    background-color: rgb(255, 254, 254);
+    background-color: rgb(243, 239, 239);
     justify-content:space-between;
+    
 }
+
 .left_chat_head{
     display: flex;
     gap: 10px;
@@ -122,12 +148,19 @@ main{
 }
 .left_chat_head button{
     cursor: pointer;
+    border: none;
+    background-color: rgb(243, 239, 239);
+    
+}
+.left_chat_head button img{
+    background-color: rgb(243, 239, 239);
+    height: 20px;
 }
 .chat_profile{
     display: flex;
     flex-direction: column;
     gap: 0px;
-    width: 500px;
+    width: 400px;
     color: rgb(9, 9, 9);
     height: calc(100vh - 60px - 70px);
     padding-top: 70px;
@@ -147,7 +180,26 @@ main{
     
     
 }
+.pinned1{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+  
+    
+    
+}
 .pinned .button{
+    display: flex;
+    height: 10px;
+    font-size: 10px;
+   
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5px;
+
+    
+}
+.pinned1 .button{
     display: flex;
     height: 10px;
     font-size: 10px;
@@ -162,24 +214,41 @@ main{
     display: flex;
     border: none;
     cursor: pointer;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(243, 239, 239);
 }
+.pinned1 .button button{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(243, 239, 239);
+}
+.pinned1 .button button img{
+    height:15px;
+    width: 15px;
+}
+
+
 .card{
     display: flex;
-    padding: 10px;
-   
+    align-items: center;
     
 }
 
 .card button{
     display: flex;
     gap: 10px;
-    padding: 10px;
-    background-color: rgb(246, 245, 245);
+    padding: 5px;
+    background-color: rgb(243, 239, 239);
     cursor: pointer;
     border: none;
+    
 
 }
+.name h4{
+  margin-right: auto;
+  
+}
+
 .card button img{
     height: 40px;
     width: 40px;
@@ -188,11 +257,15 @@ main{
 }
 .card p{
     margin-left: auto;
+    margin-right: 10px;
+    font-weight: 100;
+    
 }
 
 .chat{
-    background:rgb(239, 238, 238);
-    width: calc(100vw - 560px);
+    background:rgb(240, 238, 238);
+    width: calc(100vw - 460px);
+    height: calc(100vh - 60px);
     display:flex;
     flex-direction: column;
     
@@ -207,90 +280,152 @@ main{
     
     gap: 20px;
     align-items: center;
-    padding: 15px;
     position: sticky;
-    top: 60px;
-    height: 40px;
-    background-color:rgb(240, 236, 236); 
-    border-left: 2px solid rgb(68, 65, 65);
-    border-bottom: 2px solid rgb(68, 65, 65);
+    height: 74px;
+    background-color:rgb(245, 245, 245);
+    border-left: 1px solid rgb(207, 200, 200);
+    border-bottom: 1px solid rgb(207, 200, 200);
     
    
 }
+
+
 .meetnow{
     margin-left: auto;
     display: flex;
     gap: 5px;
-    background-color: rgb(247, 240, 240);
+    background-color:white;
     border: none;
     cursor: pointer;
     font-weight: 800;
 }
 .chat_button {
-    background-color: rgb(251, 248, 248);
+    background-color: white;
     border: none;
     cursor: pointer;
-    
+}
+.line{
+    height: 15px;
+}
+.new_group_chat{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.new_group_chat img{
+    height:30px; 
+}
+.add_folder_chat{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.add_folder_chat img{
+    height:20px;
 }
 .shared_button{
-    background-color: rgb(248, 248, 242);
+    background-color: white;
     border: none;
     cursor: pointer;
 }
-.profile_image{
+  
+.profile_image img{
     cursor: pointer;
-    padding-left: 25px;
+    margin-left: 12px;
+    height:40px;
+    
+    border-radius: 50%;
+
 }
 .call_option{
-    background-color: rgb(245, 238, 238);
+    background-color: white;
     border: none;
     cursor: pointer;
 }
 .call_option:hover{
-    background-color: rgb(238, 231, 231);
+    background-color: white;
 }
 .view_add_participant{
-    background-color: rgb(235, 231, 231);
+    background-color: white;
     border: none;
     cursor: pointer;
 }
-.view_add_participant:hover{
-    background-color: rgb(250, 246, 246);
+.view_add_participant img{
+    height:30px;
 }
+
+
 .more_chat_options{
-    background-color: rgb(249, 242, 242);
+    background-color: white;
     border: none;
     cursor: pointer;
 }
-.more_chat_options:hover{
-    background-color: rgb(248, 247, 247);
+.more_chat_options img{
+    height:30px;
 }
 .chat_card{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 200px;
     
     
 }
+.chat_card1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 700px;
+    padding: 5px;
+    margin-right: 400px;
+    margin-left: auto;
+   
+    
+  
+}
+.open_chat_details{
+   
+    border: none;
+    background-color: white;
+    margin-right: 15px;
+    
+}
+.open_chat_details img{
+height: 20px;
+}
+
+
 .chat_card h2{
     font-size: 12px;
-    font-style: none;
+
     font-weight: 100;
     
+
+}
+.chat_card1 h2{
+    font-size: 12px;
+  
+    font-weight: 100;
+   
 }
 
 .messeges{
-    height: calc(100vh - 60px - 75px);
-    background-color: rgb(245, 238, 238);
+    height: calc(100vh - 60px - 70px);
+    background-color:rgb(245, 245, 245);
     gap: 20px;
     display: flex;
     flex-direction: column;
-    border-left: 2px solid rgb(68, 65, 65);
+    border-left: 1px solid rgb(207, 200, 200);
     overflow: scroll;
     /* yet to be learn used internet*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;
-    padding: 10px;
+    padding: 30px;
+    
+     
     
 }
 
@@ -305,15 +440,49 @@ main{
     display: flex; 
     gap: 5px;
     
+   
   
 }
 .data p{
    display: flex;
    align-items: center;
-   background-color: rgb(247, 245, 245);
+   background-color: rgb(229, 231, 231);
    padding: 10px;
-   border-radius: 2px;
+   border-radius: 5px;
 }
 .data img{
     border-radius: 30px;
+    height:50px;
+}
+.messege_box{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 800px;
+    border: 1px solid rgb(177,170,170);
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 200px;
+    gap: 10px;
+    background-color:rgb(245, 245, 245);
+   
+}
+.messege_box input{
+    margin-right: auto;
+    width:590px;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(245, 245, 245);
+    
+}
+.messege_icon{
+    background:white;
+    display: flex;
+    height: 20px;
+    border: none;
+    
 }
