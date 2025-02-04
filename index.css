@@ -85,8 +85,8 @@ main{
     width: 30px;
     border: none;
     margin-right: 10px;
-    background-color:rgb(236, 234, 234);;
-
+    background-color: rgb(236,234,234);
+   
 }
 .left_navbar ul{
     position: fixed;
@@ -107,9 +107,10 @@ main{
     
 }
 .left_navbar ul li img{
-    background-color: white;
+    background-color:  rgb(245, 245, 245);;
     height: 30px;
     width: 30px;
+    
 }
 .left_navbar ul h2,h1{
     font-size: 10px;
@@ -449,7 +450,7 @@ height: 20px;
 .data p{
    display: flex;
    align-items: center;
-   background-color: rgb(229, 231, 231);
+   background-color: rgb(234, 234, 247);
    padding: 10px;
    border-radius: 5px;
 }
