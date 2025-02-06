@@ -168,23 +168,25 @@ main{
 .chat_head{
     display: flex;
     width: 360px;
-    color: rgb(11, 11, 11);
+    
     align-items: center;
     padding: 5px;
-    box-sizing: border-box;
+    
     border-bottom: 0.2px solid rgb(207, 200, 200);
-    height: 70px;
-    position: fixed;
-    background-color: rgb(243, 239, 239);
-    justify-content:space-between;
+    height: 60px;
+    
+    
     
     
 }
-
+.chat_head > h2{
+  font-size: 19px;
+  margin-left: 10px;
+}
 .left_chat_head{
     display: flex;
     gap: 10px;
-    padding-left: 10px;
+    margin-left: auto;
 }
 .left_chat_head button{
     cursor: pointer;
@@ -192,9 +194,14 @@ main{
     background-color: rgb(243, 239, 239);
     
 }
+
 .left_chat_head button img{
-    background-color: rgb(243, 239, 239);
     height: 20px;
+    width: 20px;
+}
+#chat_head-more_options{
+    height: 15px;
+    width: 15px;
 }
 #left_navbar-view_more_apps_img{
       height: 20px;
@@ -207,14 +214,12 @@ main{
      
 }
 .chat_profile{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
+    
     width: 360px;
     color: rgb(9, 9, 9);
-    height: calc(100vh - 50px - 70px);
-    padding-top: 70px;
-    overflow:auto;
+    height: calc(100vh - 50px - 60px);
+    
+    
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;
    
@@ -241,15 +246,9 @@ main{
 }
 
 .pinned .button{
-    display: flex;
-    height: 10px;
-    font-size: 10px;
-   
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 5px;
+    height: 100%;
+    width: 100%;
     
-   
 }
 .pinned1 .button{
     display: flex;
@@ -266,8 +265,15 @@ main{
     display: flex;
     border: none;
     cursor: pointer;
+    width: 100%;
     background-color: rgb(243, 239, 239);
+    margin-top: 15px;
+    margin-left: 13px;
+    font-weight: 200px;
     
+}
+pinned .button button p{
+    color: rgb(95, 95, 95);
 }
 .pinned1 .button button{
     display: flex;
@@ -284,21 +290,31 @@ main{
 .card{
     display: flex;
     align-items: center;
+    margin-left: 13px;
+    margin-right: 10px;
+    background-color: rgb(243, 239, 239);
     
 }
 
 .card button{
     display: flex;
-    gap: 10px;
-    padding: 5px;
+
+    
     background-color: rgb(243, 239, 239);
     cursor: pointer;
     border: none;
     
 
 }
+
+.name h3,p{
+    color: rgb(78, 78, 78);
+    font-weight: 100;
+    
+}
 .name h4{
   margin-right: auto;
+  color: rgb(95, 95, 95);
   
 }
 
@@ -311,7 +327,8 @@ main{
 .card p{
     margin-left: auto;
     margin-right: 10px;
-    font-weight: 100;
+    font-weight: 30;
+    font-size: 15px;
     
 }
 
