@@ -160,7 +160,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 360px;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     height: calc(100vh - 50px);
   
     
@@ -191,7 +191,7 @@ main{
 .left_chat_head button{
     cursor: pointer;
     border: none;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     
 }
 
@@ -264,7 +264,7 @@ main{
     border: none;
     cursor: pointer;
     width: 100%;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     margin-top: 15px;
     margin-left: 13px;
     font-weight: 200px;
@@ -277,7 +277,7 @@ main{
     display: flex;
     border: none;
     cursor: pointer;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     color: rgb(95, 95, 95); 
     margin-bottom: 10px;
 }
@@ -293,14 +293,14 @@ main{
     align-items: center;
     margin-left: 12px;
     margin-top: 10px;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     
 }
 
 .card button{
     display: flex;
     gap: 10px;
-    background-color: rgb(243, 239, 239);
+    background-color:#F5F5F5;
     cursor: pointer;
     border: none;
     
@@ -343,7 +343,7 @@ main{
 
 
 .chat{
-    background:rgb(240, 238, 238);
+   background-color:#F5F5F5;
     width: calc(100vw - 360px - 70px);
     height: calc(100vh - 50px);
     display:flex;
@@ -510,7 +510,7 @@ height: 20px;
 
 .messeges{
     height: calc(100vh - 50px - 70px);
-    background-color:rgb(245, 245, 245);
+    background-color:white;
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -542,7 +542,7 @@ height: 20px;
 .data p{
    display: flex;
    align-items: center;
-   background-color: rgb(234, 234, 247);
+   background-color: #F5F5F5;;
    padding: 10px;
    border-radius: 5px;
 }
