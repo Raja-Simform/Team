@@ -251,9 +251,9 @@ main{
 .pinned1 .button{
     display: flex;
     font-size: 13px;
-   
+    
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 13px;
     font-weight: 200px;
 
@@ -279,7 +279,7 @@ main{
     cursor: pointer;
     background-color:#F5F5F5;
     color: rgb(95, 95, 95); 
-    margin-bottom: 10px;
+    
 }
 .pinned1 .button button img{
     height:15px;
@@ -289,12 +289,13 @@ main{
 
 .card{
     display: flex;
-    
-    align-items: center;
-    margin-left: 12px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
     background-color:#F5F5F5;
-    
+    padding-top: 7px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .card button{
@@ -316,7 +317,7 @@ main{
 }
 .card p{
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 20px;
     font-weight: 50;
     font-size: 14px;
     color: rgb(95, 95, 95);
@@ -335,12 +336,16 @@ main{
     
 }
 .name h5{
-    display: flex;
-    justify-content: start;
+    width: 100%;
+    padding: 0;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 13px;
 }
+#btn_card ,#btn_card button ,#btn_card p{
+background-color: white;
 
+
+}
 
 .chat{
    background-color:#F5F5F5;
