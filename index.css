@@ -476,6 +476,7 @@ main{
     flex-direction: column;
     border-radius: 10px;
     width: 700px;
+    
     padding: 5px;
     margin-right: 400px;
     margin-left: auto;
@@ -512,6 +513,7 @@ height: 20px;
     background-color:white;
     gap: 20px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     border-left: 1px solid rgb(207, 200, 200);
     overflow: scroll;
@@ -534,7 +536,7 @@ height: 20px;
 .data{
     display: flex; 
     gap: 5px;
-    
+    height: fit-content;
    
   
 }
@@ -544,6 +546,7 @@ height: 20px;
    background-color: #F5F5F5;;
    padding: 10px;
    border-radius: 5px;
+   height: fit-content;
 }
 .data img{
     border-radius:50% ;
@@ -555,11 +558,12 @@ height: 20px;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    width: 900px;
+    width: 67%;
     border: 0.2px solid rgb(177,170,170);
     height: 40px;
     border-radius: 5px;
-    margin-left: 250px;
+    margin-left: auto;
+    margin-right: 200px;
     gap: 5px;
     background-color:rgb(245, 245, 245);
    
@@ -592,3 +596,26 @@ height: 20px;
     border: 1px solid transparent;
     
 }
+@media screen and (max-width:1363px) {
+    .profile{
+        display: none;
+    }
+    .chat{
+        width: calc(100vw - 60px);
+    }
+    
+    
+}
+@media screen and (max-width:824px) {
+    .profile{
+        display: none;
+    }
+    .chat{
+        width: calc(100vw - 60px);
+    }
+    .chat_information{
+        height: 100px;
+    }
+}
+
+
